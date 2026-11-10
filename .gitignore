@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Model and large datasets
+*.joblib
+*.pkl
+*.pickle
+*.tar.gz
+
+# Temporary files
+*.log
+.DS_Store

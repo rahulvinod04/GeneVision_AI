@@ -1,0 +1,26 @@
+{
+  "dataset": "UCI Gene Expression Cancer RNA-Seq",
+  "data_directory": "data\\raw\\TCGA-PANCAN-HiSeq-801x20531",
+  "synthetic": false,
+  "n_samples": 801,
+  "n_features": 20531,
+  "n_train": 640,
+  "n_test": 161,
+  "final_model": "Linear SVM",
+  "selection": "l1",
+  "k": 50,
+  "genes_used_by_model": 50,
+  "cv_macro_f1_of_final_config": 1.0,
+  "test_metrics": {
+    "accuracy": 0.9875776397515528,
+    "balanced_accuracy": 0.9857142857142858,
+    "macro_precision": 0.9935483870967742,
+    "macro_recall": 0.9857142857142858,
+    "macro_f1": 0.9893139040680025
+  },
+  "final_fit_time_s": 1476.0715885162354,
+  "seed": 42,
+  "cv_folds": 5,
+  "stable_genes_freq_ge_0.8": 43,
+  "disclaimer": "Educational research project; not a clinically validated diagnostic tool."
+}
